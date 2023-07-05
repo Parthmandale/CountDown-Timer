@@ -29,4 +29,4 @@ function formatTime(time) {
 // initial call
 countdown();
 
-setInterval(countdown, 1000);
+setInterval(countdown, 1000); // setInterval calls the countdown function again and again after every 1 sec
